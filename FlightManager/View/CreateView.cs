@@ -10,22 +10,17 @@ using System.Windows.Forms;
 
 namespace FlightManager.View
 {
-    public partial class LoginView : Form
+    public partial class CreateView : Form
+        
     {
-        public LoginView()
+        public CreateView()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void CreateView_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void Createbtn_Click(object sender, EventArgs e)
-        {
-            CreateView cv = new CreateView();
-            cv.ShowDialog();
+            
         }
     }
 }
